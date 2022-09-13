@@ -5,9 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String nombre = new String();
+
         System.out.print("Hola, dime tu nombre");
-        nombre = teclado.nextLine();
+        String nombre = teclado.nextLine();
         if (nombre.equals("Iago")) {
             System.out.println("Lo siento, no aceptamos amantes de linux aquí");
         } else if (nombre.equals("Bryan")){
